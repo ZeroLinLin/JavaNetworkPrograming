@@ -22,6 +22,7 @@ public class FileServerHandler extends SimpleChannelInboundHandler<String> {
 	protected void channelRead0(ChannelHandlerContext ctx, String msg)    //重写读方法   
 			throws Exception {
 		RandomAccessFile raf = null;   
+		
 		long length = -1;
 		try {
 			raf = new RandomAccessFile(msg, "r");
