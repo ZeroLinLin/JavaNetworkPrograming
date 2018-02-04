@@ -1,4 +1,4 @@
-package cn.edu.nju.async.nio;
+package cn.edu.nju.async.echo;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
